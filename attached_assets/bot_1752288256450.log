@@ -1,0 +1,62 @@
+2025-07-12 00:38:24,431 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-12 00:38:24,432 - __main__ - ERROR - DISCORD_TOKEN not found in environment variables!
+2025-07-12 00:44:56,654 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-12 00:44:56,659 - discord.client - INFO - logging in using static token
+2025-07-12 00:44:56,673 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.58:5000
+2025-07-12 00:44:56,674 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 00:44:57,300 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4f46c71308cbe777f6656b49983c9b5f).
+2025-07-12 00:44:58,384 - werkzeug - INFO - 172.31.128.58 - - [12/Jul/2025 00:44:58] "GET / HTTP/1.1" 200 -
+2025-07-12 00:44:59,312 - __main__ - INFO - Kaala Billota#1815 has connected to Discord!
+2025-07-12 00:44:59,312 - __main__ - INFO - Bot is in 2 guilds
+2025-07-12 00:44:59,339 - __main__ - INFO - Loaded cog: cogs.rpg_games
+2025-07-12 00:44:59,349 - __main__ - INFO - Loaded cog: cogs.economy
+2025-07-12 00:44:59,363 - __main__ - INFO - Loaded cog: cogs.moderation
+2025-07-12 00:45:01,286 - cogs.ai_chatbot - INFO - Google Gemini API initialized successfully
+2025-07-12 00:45:01,288 - __main__ - INFO - Loaded cog: cogs.ai_chatbot
+2025-07-12 00:45:01,297 - __main__ - ERROR - Failed to load cog cogs.admin: Extension 'cogs.admin' raised an error: TypeError: Commands or listeners must not start with cog_ or bot_ (in method AdminCog.bot_info)
+2025-07-12 00:45:34,500 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-12 00:45:34,507 - discord.client - INFO - logging in using static token
+2025-07-12 00:45:34,530 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.58:5000
+2025-07-12 00:45:34,532 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 00:45:35,155 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1bdda468adf8e1537b1cc4b6aa295c6b).
+2025-07-12 00:45:35,345 - werkzeug - INFO - 172.31.128.58 - - [12/Jul/2025 00:45:35] "GET / HTTP/1.1" 200 -
+2025-07-12 00:45:37,186 - __main__ - INFO - Kaala Billota#1815 has connected to Discord!
+2025-07-12 00:45:37,186 - __main__ - INFO - Bot is in 2 guilds
+2025-07-12 00:45:37,189 - __main__ - INFO - Loaded cog: cogs.rpg_games
+2025-07-12 00:45:37,191 - __main__ - INFO - Loaded cog: cogs.economy
+2025-07-12 00:45:37,192 - __main__ - INFO - Loaded cog: cogs.moderation
+2025-07-12 00:45:37,850 - cogs.ai_chatbot - INFO - Google Gemini API initialized successfully
+2025-07-12 00:45:37,851 - __main__ - INFO - Loaded cog: cogs.ai_chatbot
+2025-07-12 00:45:37,857 - __main__ - ERROR - Failed to load cog cogs.admin: Extension 'cogs.admin' raised an error: TypeError: Commands or listeners must not start with cog_ or bot_ (in method AdminCog.bot_info)
+2025-07-12 00:45:43,723 - werkzeug - INFO - 127.0.0.1 - - [12/Jul/2025 00:45:43] "GET / HTTP/1.1" 200 -
+2025-07-12 00:46:14,994 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 00:46:16,339 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-12 00:46:16,341 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-12 00:54:32,390 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-12 00:54:32,397 - discord.client - INFO - logging in using static token
+2025-07-12 00:54:32,414 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.58:5000
+2025-07-12 00:54:32,414 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 00:54:33,200 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 90f2969f9b8e0fe2ff31054e1569b6af).
+2025-07-12 00:54:34,277 - werkzeug - INFO - 172.31.128.58 - - [12/Jul/2025 00:54:34] "GET / HTTP/1.1" 200 -
+2025-07-12 00:54:35,217 - __main__ - INFO - Kaala Billota#1815 has connected to Discord!
+2025-07-12 00:54:35,217 - __main__ - INFO - Bot is in 2 guilds
+2025-07-12 00:54:35,253 - __main__ - INFO - Loaded cog: cogs.rpg_games
+2025-07-12 00:54:35,255 - __main__ - INFO - Loaded cog: cogs.economy
+2025-07-12 00:54:35,258 - __main__ - INFO - Loaded cog: cogs.moderation
+2025-07-12 00:54:36,297 - cogs.ai_chatbot - INFO - Google Gemini API initialized successfully
+2025-07-12 00:54:36,297 - __main__ - INFO - Loaded cog: cogs.ai_chatbot
+2025-07-12 00:54:36,299 - __main__ - ERROR - Failed to load cog cogs.admin: Extension 'cogs.admin' raised an error: TypeError: Commands or listeners must not start with cog_ or bot_ (in method AdminCog.bot_info)
+2025-07-12 00:55:21,320 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 00:55:24,684 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-12 00:55:24,685 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-12 00:55:46,671 - utils.database - ERROR - Error getting user data for 1297013439125917766: quote_from_bytes() expected bytes
+2025-07-12 00:55:46,672 - cogs.rpg_games - ERROR - Error displaying luck status: 'NoneType' object has no attribute 'get'

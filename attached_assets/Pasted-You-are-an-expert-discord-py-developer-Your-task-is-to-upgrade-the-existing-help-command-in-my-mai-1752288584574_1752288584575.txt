@@ -1,0 +1,31 @@
+You are an expert discord.py developer. Your task is to upgrade the existing $help command in my main.py file.
+
+The current help command is static and sends a single, long embed with all commands listed. I want you to replace it with a modern, interactive, and paginated help menu using discord.py's UI components, as supported by the project's dependencies.
+
+Please modify the help_command in main.py according to these exact requirements:
+
+1. Core Structure:
+
+    Create a custom discord.ui.View class to manage all interactive components.
+
+    The help command should be paginated, where each page is a discord.Embed. Each command category (RPG, Economy, Moderation, AI, Admin) should be its own page, based on the categories already present in the existing help command.
+
+2. Interactive Components (within the View):
+
+    Navigation Buttons: Implement "Previous" and "Next" buttons (discord.ui.Button) that allow users to cycle through the different command category pages. The buttons should be disabled appropriately (e.g., "Previous" is disabled on the first page).
+
+    Category Dropdown: Implement a discord.ui.Select menu that allows users to directly jump to any category page (RPG, Economy, etc.). The placeholder text should be "Select a category...".
+
+    Close Button: Add a "Close" button with a trash can emoji that deletes the help message when clicked.
+
+3. Behavior and Logic:
+
+    When a user clicks a button or selects an option from the dropdown, the interaction must edit the original message (interaction.response.edit_message) to display the new page/embed. It should not send a new message.
+
+    Dynamically generate the pages and dropdown options from the command categories already defined in the current help command. Use the corresponding emojis and the primary color from the EMOJIS and COLORS dictionaries in config.py for each category embed and dropdown option.
+
+    The View should have a timeout, after which the buttons and dropdown will become disabled.
+
+4. Persistence:
+
+    To make the interactive view work after the bot restarts, it must be persistent. In the on_ready event in main.py, add the custom View class you created to the bot using bot.add_view().
